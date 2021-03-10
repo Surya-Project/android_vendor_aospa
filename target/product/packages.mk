@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit from rro_overlays config
+$(call inherit-product, vendor/aospa/config/rro_overlays.mk)
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
