@@ -54,6 +54,9 @@ $(call inherit-product, vendor/google/pixel/config.mk)
 # Move Wi-Fi modules to vendor.
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+# Fonts
+include vendor/aospa/config/fonts.mk
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/aospa/target/config/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
