@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep
 
+# PixelPropsUtils
+PRODUCT_COPY_FILES += \
+    vendor/aospa/prebuilt/common/etc/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
+
 # Theme Picker
 PRODUCT_PACKAGES += \
     ThemePicker
