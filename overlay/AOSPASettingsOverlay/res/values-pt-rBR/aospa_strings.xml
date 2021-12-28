@@ -65,4 +65,34 @@
     <string name="status_bar_battery_percentage_default">Oculto (Padrão)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do icone de bateria</string>
     <string name="status_bar_battery_percentage_text_next">Próximo ao icone de bateria</string> 
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="preferred_refresh_rate_title">Taxa de atualização preferida</string>
+    <string name="preferred_refresh_rate_info">A taxa de atualização preferencial será usada como a taxa de atualização padrão para interações do usuário, desde que não seja inferior à taxa de atualização mínima e não superior à taxa de atualização máxima.</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização da tela de 60hz para economizar energia quando o modo economia de bateria estiver ativado</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Toque para desativar</string>
+    <string name="double_tap_sleep_gesture_summary">Toque duas vezes em qualquer lugar da barra de status para desativar a tela</string>
+
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_aospa">Toque duas vezes em qualquer parte da tela para ativar o dispositivo</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
+    <string name="less_boring_heads_up_summary">Desative rapidamente as notificações pop-up para todos os aplicativos, mas mantenha-as ativadas para os aplicativos de discagem e mensagens</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ligar/Desligar a lanterna quando a tela estiver apagada</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Pressionar o botão liga/desliga (Desativa rapidamente o recurso de abrir camêra e adiciona 170ms atraso)</string>
+    <string name="torch_power_button_gesture_lp">Toque longo no botão liga/desliga</string>
+
 </resources>
